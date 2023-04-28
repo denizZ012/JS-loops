@@ -2,8 +2,10 @@ function solve(input){
     let actorName=input[0];
     let academyPoints=Number(input[1]);
     let countJudges=Number(input[2]);
+    let try=0
 
     let totalPoints=academyPoints
+
 
     for(let i=3; i<input.length; i+=2){
         let judgeName=input[i];
